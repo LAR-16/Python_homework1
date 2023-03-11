@@ -2,7 +2,7 @@
 
 number = int(input("Введите число: "))
 while number % 6 != 0:
-    number = int(input("Введите число: "))
+    number = int(input("Введите другое число: "))
 petya=number//6
 sergey=petya
 kate=(sergey+petya)*2
